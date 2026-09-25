@@ -120,9 +120,4 @@ Then, in the browser tab that opens (`http://localhost:8501`):
 4. Click **"Generate incident report"**.
 5. Read the report and click **"Download .md"** to save it.
 
-### Using real honeypot data (optional, for a stronger demo)
-Deploy Cowrie in Docker on an **isolated** cloud VM (never on a home/college network):
-```bash
-docker run -p 2222:2222 cowrie/cowrie
-```
-Use the resulting `var/log/cowrie/cowrie.json` as the uploaded log file.
+
